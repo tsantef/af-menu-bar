@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF28D6D5161FC24D0068ED03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF28D6D4161FC24D0068ED03 /* Cocoa.framework */; };
+		AF28D6D7161FC24D0068ED03 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF28D6D6161FC24D0068ED03 /* MacRuby.framework */; };
+		AF28D6E0161FC24D0068ED03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6DE161FC24D0068ED03 /* InfoPlist.strings */; };
+		AF28D6E2161FC24D0068ED03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF28D6E1161FC24D0068ED03 /* main.m */; };
+		AF28D6E7161FC24E0068ED03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6E5161FC24E0068ED03 /* MainMenu.xib */; };
+		AF28D6EA161FC24E0068ED03 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6E9161FC24E0068ED03 /* rb_main.rb */; };
+		AF28D6EC161FC24E0068ED03 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6EB161FC24E0068ED03 /* AppDelegate.rb */; };
+		AF28D6FA161FED550068ED03 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6F9161FED550068ED03 /* favicon.ico */; };
+		AF28D6FC161FEEFA0068ED03 /* menu-color.png in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6FB161FEEFA0068ED03 /* menu-color.png */; };
+		AF28D6FE161FF00D0068ED03 /* menu-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6FD161FF00D0068ED03 /* menu-gray.png */; };
+		AF28D700161FF1480068ED03 /* MenuBar.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF28D6FF161FF1480068ED03 /* MenuBar.rb */; };
+		AF28D706162012BE0068ED03 /* RestClient.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF28D705162012BE0068ED03 /* RestClient.rb */; };
+		AF28D708162295440068ED03 /* AppFog.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF28D707162295440068ED03 /* AppFog.rb */; };
+		AFCBE77C16232FB30083A01D /* AppItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCBE77A16232FB30083A01D /* AppItemViewController.m */; };
+		AFCBE77D16232FB30083A01D /* AppItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE77B16232FB30083A01D /* AppItemViewController.xib */; };
+		AFCBE79216255C9E0083A01D /* icon-node.png in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE79016255C9E0083A01D /* icon-node.png */; };
+		AFCBE79316255C9E0083A01D /* icon-php.png in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE79116255C9E0083A01D /* icon-php.png */; };
+		AFCBE797162562760083A01D /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCBE795162562760083A01D /* ConsoleController.m */; };
+		AFCBE798162562760083A01D /* ConsoleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE796162562760083A01D /* ConsoleController.xib */; };
+		AFCBE7A11626A6A70083A01D /* keychain.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE79B1626A6A70083A01D /* keychain.rb */; };
+		AFCBE7A21626A6A70083A01D /* exception.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE79D1626A6A70083A01D /* exception.rb */; };
+		AFCBE7A31626A6A70083A01D /* generic_item.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE79E1626A6A70083A01D /* generic_item.rb */; };
+		AFCBE7A41626A6A70083A01D /* internet_item.rb in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE79F1626A6A70083A01D /* internet_item.rb */; };
+		AFCBE7A51626A6A70083A01D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE7A01626A6A70083A01D /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF28D6D9161FC24D0068ED03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF28D6C7161FC24D0068ED03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF28D6CF161FC24D0068ED03;
+			remoteInfo = "af-menu-bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF28D6D0161FC24D0068ED03 /* af-menu-bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "af-menu-bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF28D6D4161FC24D0068ED03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AF28D6D6161FC24D0068ED03 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		AF28D6DD161FC24D0068ED03 /* af-menu-bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "af-menu-bar-Info.plist"; sourceTree = "<group>"; };
+		AF28D6DF161FC24D0068ED03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF28D6E1161FC24D0068ED03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF28D6E3161FC24D0068ED03 /* af-menu-bar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "af-menu-bar-Prefix.pch"; sourceTree = "<group>"; };
+		AF28D6E6161FC24E0068ED03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AF28D6E9161FC24E0068ED03 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		AF28D6EB161FC24E0068ED03 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		AF28D6F9161FED550068ED03 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = Resources/favicon.ico; sourceTree = "<group>"; };
+		AF28D6FB161FEEFA0068ED03 /* menu-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-color.png"; path = "Resources/menu-color.png"; sourceTree = "<group>"; };
+		AF28D6FD161FF00D0068ED03 /* menu-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-gray.png"; path = "Resources/menu-gray.png"; sourceTree = "<group>"; };
+		AF28D6FF161FF1480068ED03 /* MenuBar.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MenuBar.rb; sourceTree = "<group>"; };
+		AF28D705162012BE0068ED03 /* RestClient.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = RestClient.rb; sourceTree = "<group>"; };
+		AF28D707162295440068ED03 /* AppFog.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppFog.rb; sourceTree = "<group>"; };
+		AFCBE77916232FB30083A01D /* AppItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppItemViewController.h; sourceTree = "<group>"; };
+		AFCBE77A16232FB30083A01D /* AppItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppItemViewController.m; sourceTree = "<group>"; };
+		AFCBE77B16232FB30083A01D /* AppItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppItemViewController.xib; sourceTree = "<group>"; };
+		AFCBE79016255C9E0083A01D /* icon-node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-node.png"; path = "Resources/icon-node.png"; sourceTree = "<group>"; };
+		AFCBE79116255C9E0083A01D /* icon-php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-php.png"; path = "Resources/icon-php.png"; sourceTree = "<group>"; };
+		AFCBE794162562760083A01D /* ConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleController.h; sourceTree = "<group>"; };
+		AFCBE795162562760083A01D /* ConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
+		AFCBE796162562760083A01D /* ConsoleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsoleController.xib; sourceTree = "<group>"; };
+		AFCBE79B1626A6A70083A01D /* keychain.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = keychain.rb; sourceTree = "<group>"; };
+		AFCBE79D1626A6A70083A01D /* exception.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = exception.rb; sourceTree = "<group>"; };
+		AFCBE79E1626A6A70083A01D /* generic_item.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = generic_item.rb; sourceTree = "<group>"; };
+		AFCBE79F1626A6A70083A01D /* internet_item.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = internet_item.rb; sourceTree = "<group>"; };
+		AFCBE7A01626A6A70083A01D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF28D6CD161FC24D0068ED03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF28D6D5161FC24D0068ED03 /* Cocoa.framework in Frameworks */,
+				AF28D6D7161FC24D0068ED03 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF28D6C5161FC24D0068ED03 = {
+			isa = PBXGroup;
+			children = (
+				AF28D6DB161FC24D0068ED03 /* af-menu-bar */,
+				AFCBE7991626A6530083A01D /* Vendor */,
+				AF28D6D3161FC24D0068ED03 /* Frameworks */,
+				AF28D6D1161FC24D0068ED03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF28D6D1161FC24D0068ED03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF28D6D0161FC24D0068ED03 /* af-menu-bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF28D6D3161FC24D0068ED03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF28D6D4161FC24D0068ED03 /* Cocoa.framework */,
+				AF28D6D6161FC24D0068ED03 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF28D6DB161FC24D0068ED03 /* af-menu-bar */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE7A61626A9DA0083A01D /* Controllers */,
+				AF28D707162295440068ED03 /* AppFog.rb */,
+				AF28D705162012BE0068ED03 /* RestClient.rb */,
+				AF28D6EB161FC24E0068ED03 /* AppDelegate.rb */,
+				AF28D6FF161FF1480068ED03 /* MenuBar.rb */,
+				AF28D6E4161FC24E0068ED03 /* Resources */,
+				AF28D6E8161FC24E0068ED03 /* Other Sources */,
+				AF28D6DC161FC24D0068ED03 /* Supporting Files */,
+			);
+			path = "af-menu-bar";
+			sourceTree = "<group>";
+		};
+		AF28D6DC161FC24D0068ED03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF28D6DD161FC24D0068ED03 /* af-menu-bar-Info.plist */,
+				AF28D6DE161FC24D0068ED03 /* InfoPlist.strings */,
+				AF28D6E1161FC24D0068ED03 /* main.m */,
+				AF28D6E3161FC24D0068ED03 /* af-menu-bar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF28D6E4161FC24E0068ED03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF28D6FD161FF00D0068ED03 /* menu-gray.png */,
+				AFCBE79016255C9E0083A01D /* icon-node.png */,
+				AFCBE79116255C9E0083A01D /* icon-php.png */,
+				AF28D6FB161FEEFA0068ED03 /* menu-color.png */,
+				AF28D6F9161FED550068ED03 /* favicon.ico */,
+				AF28D6E5161FC24E0068ED03 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF28D6E8161FC24E0068ED03 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AF28D6E9161FC24E0068ED03 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		AFCBE7991626A6530083A01D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE79A1626A6A70083A01D /* keychain-wrapper */,
+			);
+			name = Vendor;
+			path = "af-menu-bar";
+			sourceTree = "<group>";
+		};
+		AFCBE79A1626A6A70083A01D /* keychain-wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE79B1626A6A70083A01D /* keychain.rb */,
+				AFCBE79C1626A6A70083A01D /* lib */,
+				AFCBE7A01626A6A70083A01D /* README.md */,
+			);
+			name = "keychain-wrapper";
+			path = "vendor/keychain-wrapper";
+			sourceTree = SOURCE_ROOT;
+		};
+		AFCBE79C1626A6A70083A01D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE79D1626A6A70083A01D /* exception.rb */,
+				AFCBE79E1626A6A70083A01D /* generic_item.rb */,
+				AFCBE79F1626A6A70083A01D /* internet_item.rb */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		AFCBE7A61626A9DA0083A01D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE77916232FB30083A01D /* AppItemViewController.h */,
+				AFCBE77A16232FB30083A01D /* AppItemViewController.m */,
+				AFCBE77B16232FB30083A01D /* AppItemViewController.xib */,
+				AFCBE794162562760083A01D /* ConsoleController.h */,
+				AFCBE795162562760083A01D /* ConsoleController.m */,
+				AFCBE796162562760083A01D /* ConsoleController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AF28D6D8161FC24D0068ED03 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = AF28D6F2161FC24E0068ED03 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				AF28D6DA161FC24D0068ED03 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		AF28D6CF161FC24D0068ED03 /* af-menu-bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF28D6EF161FC24E0068ED03 /* Build configuration list for PBXNativeTarget "af-menu-bar" */;
+			buildPhases = (
+				AF28D6CC161FC24D0068ED03 /* Sources */,
+				AF28D6CD161FC24D0068ED03 /* Frameworks */,
+				AF28D6CE161FC24D0068ED03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "af-menu-bar";
+			productName = "af-menu-bar";
+			productReference = AF28D6D0161FC24D0068ED03 /* af-menu-bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF28D6C7161FC24D0068ED03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = AppFog;
+			};
+			buildConfigurationList = AF28D6CA161FC24D0068ED03 /* Build configuration list for PBXProject "af-menu-bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF28D6C5161FC24D0068ED03;
+			productRefGroup = AF28D6D1161FC24D0068ED03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF28D6CF161FC24D0068ED03 /* af-menu-bar */,
+				AF28D6D8161FC24D0068ED03 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF28D6CE161FC24D0068ED03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF28D6E0161FC24D0068ED03 /* InfoPlist.strings in Resources */,
+				AF28D6E7161FC24E0068ED03 /* MainMenu.xib in Resources */,
+				AF28D6EA161FC24E0068ED03 /* rb_main.rb in Resources */,
+				AF28D6EC161FC24E0068ED03 /* AppDelegate.rb in Resources */,
+				AF28D6FA161FED550068ED03 /* favicon.ico in Resources */,
+				AF28D6FC161FEEFA0068ED03 /* menu-color.png in Resources */,
+				AF28D6FE161FF00D0068ED03 /* menu-gray.png in Resources */,
+				AF28D700161FF1480068ED03 /* MenuBar.rb in Resources */,
+				AF28D706162012BE0068ED03 /* RestClient.rb in Resources */,
+				AF28D708162295440068ED03 /* AppFog.rb in Resources */,
+				AFCBE77D16232FB30083A01D /* AppItemViewController.xib in Resources */,
+				AFCBE79216255C9E0083A01D /* icon-node.png in Resources */,
+				AFCBE79316255C9E0083A01D /* icon-php.png in Resources */,
+				AFCBE798162562760083A01D /* ConsoleController.xib in Resources */,
+				AFCBE7A11626A6A70083A01D /* keychain.rb in Resources */,
+				AFCBE7A21626A6A70083A01D /* exception.rb in Resources */,
+				AFCBE7A31626A6A70083A01D /* generic_item.rb in Resources */,
+				AFCBE7A41626A6A70083A01D /* internet_item.rb in Resources */,
+				AFCBE7A51626A6A70083A01D /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF28D6CC161FC24D0068ED03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF28D6E2161FC24D0068ED03 /* main.m in Sources */,
+				AFCBE77C16232FB30083A01D /* AppItemViewController.m in Sources */,
+				AFCBE797162562760083A01D /* ConsoleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF28D6DA161FC24D0068ED03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF28D6CF161FC24D0068ED03 /* af-menu-bar */;
+			targetProxy = AF28D6D9161FC24D0068ED03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF28D6DE161FC24D0068ED03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF28D6DF161FC24D0068ED03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF28D6E5161FC24E0068ED03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF28D6E6161FC24E0068ED03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF28D6ED161FC24E0068ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF28D6EE161FC24E0068ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF28D6F0161FC24E0068ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Library/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "af-menu-bar/af-menu-bar-Prefix.pch";
+				INFOPLIST_FILE = "af-menu-bar/af-menu-bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF28D6F1161FC24E0068ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Library/Frameworks\"",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "af-menu-bar/af-menu-bar-Prefix.pch";
+				INFOPLIST_FILE = "af-menu-bar/af-menu-bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AF28D6F3161FC24E0068ED03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AF28D6F4161FC24E0068ED03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF28D6CA161FC24D0068ED03 /* Build configuration list for PBXProject "af-menu-bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF28D6ED161FC24E0068ED03 /* Debug */,
+				AF28D6EE161FC24E0068ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF28D6EF161FC24E0068ED03 /* Build configuration list for PBXNativeTarget "af-menu-bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF28D6F0161FC24E0068ED03 /* Debug */,
+				AF28D6F1161FC24E0068ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF28D6F2161FC24E0068ED03 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF28D6F3161FC24E0068ED03 /* Debug */,
+				AF28D6F4161FC24E0068ED03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF28D6C7161FC24D0068ED03 /* Project object */;
+}

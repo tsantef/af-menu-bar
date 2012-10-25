@@ -1,0 +1,3 @@
+[submodule "vendor/keychain-wrapper"]
+	path = vendor/keychain-wrapper
+	url = git://github.com/ashchan/macruby-keychain-wrapper.git
